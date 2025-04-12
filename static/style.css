@@ -1,0 +1,45 @@
+/* elements, class, id */
+body{
+    padding:10px;
+    margin:10px;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 200px;
+    padding:10px;
+    gap:20px;
+    }
+
+#all{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:33%;
+    height:170px;
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius:10px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.6);
+    color:yellow;
+
+
+
+
+}
+.green-box{
+    background-color: green;
+    color:white;
+    
+}
+.red-box{
+    background-color: red;
+    color: blue;
+}
+.blue-box{
+    background-color: blue;
+    color:red;
+}
+
